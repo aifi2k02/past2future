@@ -17,11 +17,11 @@ const stories = [
     category: "DNA",
     status: "Partly Real",
     score: "6/10",
-    image: "assets/deextinction-dna-blueprint.jpeg",
-    summary: "Ancient DNA and extinct animals became a real science conversation.",
+    image: "assets/dire-wolf-deextinction-blueprint.jpeg",
+    summary: "Ancient DNA and gene editing moved extinct-animal revival from fiction into real debate.",
     then: "The story imagined extinct animals brought back from ancient genetic material.",
-    now: "Scientists study ancient DNA and use cloning methods and gene editing to create animals with selected extinct-species-like traits.",
-    check: "Dinosaurs are not back. Current work is closer to proxy animals or hybrids than perfect resurrected species."
+    now: "Researchers have compared ancient dire wolf DNA with living canids and used gene editing to create gray wolves with selected dire-wolf-like traits.",
+    check: "Dinosaurs are not back, and experts debate how close these animals are to true extinct species. Current work is better described as proxy animals with selected ancient traits."
   },
   {
     title: "Woolly Mammoth Revival",
