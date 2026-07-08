@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Past to Future</title>
+    <meta name="description" content="A visual archive of yesterday's sci-fi becoming today's reality.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="Site header">
+        <a class="brand" href="#top" aria-label="Past to Future home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Past to Future</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#archive">Archive</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#submit">Suggest</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero-section" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Future archive 001</p>
+            <h1 id="hero-title">Yesterday's sci-fi became today's reality.</h1>
+            <p class="hero-lede">
+              A visual museum of impossible ideas from movies, shows, books, and predictions that turned into real technology.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button primary" href="#archive">Explore Archive</a>
+              <a class="button ghost" href="#kitt-story">View KITT Story</a>
+            </div>
+          </div>
+
+          <aside class="hero-visual" aria-label="Knight Rider KITT visual reference">
+            <div class="scan-label top-left">
+              <span>Past signal</span>
+              <strong>Knight Rider, 1982</strong>
+            </div>
+            <picture>
+              <source
+                srcset="assets/kitt-ai-xray.jpeg 1280w, assets/kitt-ai-xray-2x.jpeg 2560w"
+                sizes="(min-width: 1180px) 54vw, calc(100vw - 36px)">
+              <img
+                src="assets/kitt-ai-xray-2x.jpeg"
+                alt="KITT AI x-ray blueprint reference from Knight Rider"
+                width="2560"
+                height="1706">
+            </picture>
+            <button class="blueprint-zoom-trigger" type="button" aria-haspopup="dialog">
+              Inspect Blueprint
+            </button>
+            <div class="scan-label bottom-right">
+              <span>Reality today</span>
+              <strong>AI cars, sensors, voice control</strong>
+            </div>
+          </aside>
+        </section>
+
+        <section class="signal-strip" aria-label="Homepage highlights">
+          <div>
+            <span>Examples</span>
+            <strong>10</strong>
+          </div>
+          <div>
+            <span>First hero</span>
+            <strong>KITT</strong>
+          </div>
+          <div>
+            <span>Site mood</span>
+            <strong>Blueprint archive</strong>
+          </div>
+          <div>
+            <span>Promise</span>
+            <strong>Then vs now</strong>
+          </div>
+        </section>
+
+        <section id="kitt-story" class="feature-story" aria-labelledby="kitt-title">
+          <div class="section-heading">
+            <p class="eyebrow">Featured comparison</p>
+            <h2 id="kitt-title">KITT did not arrive as one magic car. Its pieces arrived everywhere.</h2>
+          </div>
+
+          <div class="comparison-grid">
+            <article class="comparison-panel">
+              <span class="panel-kicker">Then</span>
+              <h3>Knight Rider's AI car</h3>
+              <p>
+                KITT could talk, drive itself, scan danger, respond to natural commands, and protect its driver.
+              </p>
+            </article>
+            <article class="comparison-panel">
+              <span class="panel-kicker">Now</span>
+              <h3>Modern intelligent vehicles</h3>
+              <p>
+                Self-driving features, driver assist, emergency braking, parking assist, voice systems, cameras, radar, and AI route planning are real today.
+              </p>
+            </article>
+            <article class="comparison-panel score-panel">
+              <span class="panel-kicker">How close?</span>
+              <div class="score-ring" aria-label="KITT closeness score 8 out of 10">
+                <span>8</span>
+                <small>/10</small>
+              </div>
+              <p>Mostly real, but not yet one fully human-like car that can safely handle every road and situation.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="archive" class="archive-section" aria-labelledby="archive-title">
+          <div class="section-heading">
+            <p class="eyebrow">Open archive</p>
+            <h2 id="archive-title">Browse ideas that jumped from screen to street.</h2>
+          </div>
+
+          <div class="filter-bar" aria-label="Archive filters">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="AI">AI</button>
+            <button class="filter-button" type="button" data-filter="DNA">DNA</button>
+            <button class="filter-button" type="button" data-filter="Communication">Communication</button>
+            <button class="filter-button" type="button" data-filter="Home">Home</button>
+            <button class="filter-button" type="button" data-filter="Immersive">Immersive</button>
+          </div>
+
+          <div class="story-grid" id="story-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="timeline" class="timeline-section" aria-labelledby="timeline-title">
+          <div class="section-heading">
+            <p class="eyebrow">Time jump</p>
+            <h2 id="timeline-title">The pattern is the product.</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>1982</span>
+              <strong>KITT appears on television.</strong>
+              <p>AI cars felt like pure fantasy.</p>
+            </div>
+            <div class="timeline-item">
+              <span>1993</span>
+              <strong>Jurassic Park turns DNA revival into pop culture.</strong>
+              <p>Ancient life becomes a global imagination point.</p>
+            </div>
+            <div class="timeline-item">
+              <span>Today</span>
+              <strong>AI, autonomy, CRISPR, AR, and biometrics are real.</strong>
+              <p>Some ideas came true fully. Others are still partly real.</p>
+            </div>
+            <div class="timeline-item future">
+              <span>2028+</span>
+              <strong>Mammoth-like elephant research aims for a first calf.</strong>
+              <p>The future archive keeps updating.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="submit" class="submit-section" aria-labelledby="submit-title">
+          <div>
+            <p class="eyebrow">Next phase</p>
+            <h2 id="submit-title">Visitors will be able to suggest more future-that-came-true stories.</h2>
+          </div>
+          <form class="idea-form">
+            <label>
+              <span>Movie, show, book, or old prediction</span>
+              <input type="text" placeholder="Example: Star Trek communicator">
+            </label>
+            <label>
+              <span>Real-world technology</span>
+              <input type="text" placeholder="Example: Smartphones and smartwatches">
+            </label>
+            <button class="button primary" type="button">Preview Suggestion</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="story-dialog" id="story-dialog" aria-labelledby="dialog-title">
+      <button class="close-dialog" type="button" aria-label="Close story">x</button>
+      <p class="eyebrow" id="dialog-source"></p>
+      <h2 id="dialog-title"></h2>
+      <div class="dialog-meta" id="dialog-meta"></div>
+      <div class="dialog-grid">
+        <div>
+          <span>Then</span>
+          <p id="dialog-then"></p>
+        </div>
+        <div>
+          <span>Now</span>
+          <p id="dialog-now"></p>
+        </div>
+      </div>
+      <div class="reality-check">
+        <span>Reality check</span>
+        <p id="dialog-check"></p>
+      </div>
+    </dialog>
+
+    <dialog class="blueprint-dialog" id="blueprint-dialog" aria-labelledby="blueprint-title">
+      <div class="blueprint-dialog-head">
+        <div>
+          <p class="eyebrow">High-resolution reference</p>
+          <h2 id="blueprint-title">KITT AI X-ray</h2>
+        </div>
+        <div class="blueprint-controls" aria-label="Blueprint zoom controls">
+          <button class="zoom-control active" type="button" data-zoom="1">1x</button>
+          <button class="zoom-control" type="button" data-zoom="1.5">1.5x</button>
+          <button class="zoom-control" type="button" data-zoom="2">2x</button>
+          <button class="close-blueprint-dialog" type="button" aria-label="Close blueprint">x</button>
+        </div>
+      </div>
+      <div class="blueprint-stage">
+        <img
+          id="blueprint-full"
+          src="assets/kitt-ai-xray-2x.jpeg"
+          alt="Large KITT AI x-ray blueprint reference from Knight Rider"
+          width="2560"
+          height="1706">
+      </div>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
