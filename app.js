@@ -53,6 +53,7 @@ const stories = [
     category: "AI",
     status: "Mostly Real",
     score: "8/10",
+    image: "assets/ai-assistant-jarvis-blueprint.jpeg",
     summary: "A personal AI assistant that understands, answers, and helps with complex tasks.",
     then: "Jarvis managed systems, responded naturally, and helped Tony Stark think and build.",
     now: "ChatGPT, Siri, Alexa, Google Assistant, Microsoft Copilot, smart homes, and AI work tools handle many assistant tasks.",
