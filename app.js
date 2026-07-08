@@ -41,6 +41,7 @@ const stories = [
     category: "Communication",
     status: "Real Today",
     score: "10/10",
+    image: "assets/communicator-mobile-blueprint.jpeg",
     summary: "Small wireless communication became normal life.",
     then: "A handheld device gave crew members instant voice contact across distance.",
     now: "Smartphones, smartwatches, wireless earbuds, satellite messaging, and mobile video calls are everywhere.",

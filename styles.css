@@ -498,6 +498,14 @@ h1 {
   padding: clamp(8px, 2vw, 18px);
 }
 
+.visual-file-section-alt .visual-file-image {
+  order: 2;
+}
+
+.visual-file-section-alt .visual-file-copy {
+  order: 1;
+}
+
 .visual-file-copy h2 {
   margin-bottom: 18px;
   font-size: clamp(30px, 4.4vw, 58px);
@@ -894,6 +902,11 @@ h1 {
 
   .visual-file-section {
     grid-template-columns: 1fr;
+  }
+
+  .visual-file-section-alt .visual-file-image,
+  .visual-file-section-alt .visual-file-copy {
+    order: initial;
   }
 
   .comparison-grid {
