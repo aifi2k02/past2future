@@ -5,6 +5,7 @@ const stories = [
     category: "AI",
     status: "Mostly Real",
     score: "8/10",
+    image: "assets/kitt-ai-xray.jpeg",
     summary: "An AI car that talks, drives, senses danger, and responds to its driver.",
     then: "KITT was imagined as a smart car with a voice, independent driving, threat detection, and a strong personality.",
     now: "Modern vehicles include driver assist, voice control, emergency braking, route intelligence, parking assist, cameras, radar, and connected software.",
@@ -16,6 +17,7 @@ const stories = [
     category: "DNA",
     status: "Partly Real",
     score: "6/10",
+    image: "assets/deextinction-dna-blueprint.jpeg",
     summary: "Ancient DNA and extinct animals became a real science conversation.",
     then: "The story imagined extinct animals brought back from ancient genetic material.",
     now: "Scientists study ancient DNA and use cloning methods and gene editing to create animals with selected extinct-species-like traits.",
@@ -27,6 +29,7 @@ const stories = [
     category: "DNA",
     status: "In Progress",
     score: "7/10",
+    image: "assets/deextinction-dna-blueprint.jpeg",
     summary: "Asian elephant DNA is being edited toward mammoth-like cold-weather traits.",
     then: "People imagined ancient extinct animals walking the earth again.",
     now: "Researchers are working on mammoth-like traits such as thick hair, cold adaptation, fat storage, smaller ears, and cold-resistant blood.",
@@ -142,15 +145,22 @@ function renderStories(filter = "all") {
     card.className = "story-card";
     card.type = "button";
     card.innerHTML = `
-      <div class="story-top">
-        <span class="story-category">${story.category}</span>
-        <span class="story-score">${story.score}</span>
-      </div>
-      <h3>${story.title}</h3>
-      <p>${story.summary}</p>
-      <div class="story-footer">
-        <span>${story.source}</span>
-        <span class="story-status">${story.status}</span>
+      ${story.image ? `
+        <div class="story-visual">
+          <img src="${story.image}" alt="${story.title} visual">
+        </div>
+      ` : ""}
+      <div class="story-body">
+        <div class="story-top">
+          <span class="story-category">${story.category}</span>
+          <span class="story-score">${story.score}</span>
+        </div>
+        <h3>${story.title}</h3>
+        <p>${story.summary}</p>
+        <div class="story-footer">
+          <span>${story.source}</span>
+          <span class="story-status">${story.status}</span>
+        </div>
       </div>
     `;
     card.addEventListener("click", () => openStory(story));
