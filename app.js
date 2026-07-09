@@ -77,6 +77,7 @@ const stories = [
     category: "Immersive",
     status: "Partly Real",
     score: "7/10",
+    image: "assets/gesture-screen-blueprint.jpeg",
     summary: "Moving screens with hand gestures became touch, motion, VR, and AR control.",
     then: "Characters moved data across giant displays using hand movements in the air.",
     now: "Touchscreens, VR hand tracking, AR interfaces, motion sensors, and gesture controls exist today.",
