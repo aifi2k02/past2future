@@ -101,6 +101,7 @@ const stories = [
     category: "AI",
     status: "Real Today",
     score: "9/10",
+    image: "assets/spy-biometrics-blueprint.jpeg",
     summary: "Fingerprints, face scans, and eye scans became everyday security.",
     then: "Secret bases and spies used body-based identity checks.",
     now: "Phones, airports, offices, banks, and security systems use fingerprints, face unlock, and other biometric checks.",
