@@ -557,14 +557,14 @@ a.story-card {
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-bottom: 1px solid rgba(124, 222, 255, 0.2);
-  background: rgba(3, 10, 18, 0.72);
+  background: #020812;
 }
 
 .story-visual img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   filter: saturate(1.08) contrast(1.04);
 }
 
