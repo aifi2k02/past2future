@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Past to Future Story</title>
+    <meta name="description" content="A Past to Future story detail page.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="Site header">
+        <a class="brand" href="index.html#top" aria-label="Past to Future home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Past to Future</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html#archive">Archive</a>
+          <a href="index.html#timeline">Timeline</a>
+          <a href="index.html#submit">Suggest</a>
+        </nav>
+      </header>
+
+      <main class="detail-page" id="top">
+        <a class="back-link" href="index.html#archive">Back to archive</a>
+
+        <section class="detail-hero" aria-labelledby="detail-title">
+          <div class="detail-copy">
+            <p class="eyebrow" id="detail-eyebrow">Story file</p>
+            <h1 id="detail-title">Loading story...</h1>
+            <p class="hero-lede" id="detail-intro"></p>
+            <div class="detail-meta-strip" id="detail-meta-strip"></div>
+          </div>
+
+          <div class="detail-visual">
+            <img id="detail-image" src="" alt="" width="1672" height="941">
+          </div>
+        </section>
+
+        <section class="detail-panels" aria-label="Story breakdown">
+          <article class="comparison-panel">
+            <span class="panel-kicker">Then</span>
+            <h2>Original idea</h2>
+            <p id="detail-then"></p>
+          </article>
+          <article class="comparison-panel">
+            <span class="panel-kicker">Now</span>
+            <h2>What became real</h2>
+            <p id="detail-now"></p>
+          </article>
+          <article class="comparison-panel score-panel">
+            <span class="panel-kicker">Reality check</span>
+            <div class="score-ring" id="detail-score-ring">
+              <span id="detail-score-value">0</span>
+              <small>/10</small>
+            </div>
+            <p id="detail-check"></p>
+          </article>
+        </section>
+
+        <section class="related-section" aria-labelledby="related-title">
+          <div class="section-heading">
+            <p class="eyebrow">Continue archive</p>
+            <h2 id="related-title">More ideas that made the jump.</h2>
+          </div>
+          <div class="story-grid related-grid" id="related-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="stories.js"></script>
+    <script src="detail.js"></script>
+  </body>
+</html>
