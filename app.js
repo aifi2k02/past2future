@@ -89,6 +89,7 @@ const stories = [
     category: "Home",
     status: "Partly Real",
     score: "6/10",
+    image: "assets/robot-helper-blueprint.jpeg",
     summary: "Home robots moved from cartoon comedy to daily household tools.",
     then: "Rosie the robot handled chores and household help.",
     now: "Robot vacuums, smart speakers, delivery robots, warehouse robots, and early humanoid robots handle pieces of the dream.",
