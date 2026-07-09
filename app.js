@@ -113,6 +113,7 @@ const stories = [
     category: "Immersive",
     status: "Partly Real",
     score: "5/10",
+    image: "assets/hologram-communication-blueprint.jpeg",
     summary: "Projected 3D people inspired AR, VR, and telepresence experiments.",
     then: "Characters appeared as glowing 3D messages and remote presences.",
     now: "AR, VR, volumetric displays, hologram-style concerts, and 3D telepresence are real in limited forms.",
