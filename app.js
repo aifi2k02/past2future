@@ -65,6 +65,7 @@ const stories = [
     category: "Communication",
     status: "Real Today",
     score: "10/10",
+    image: "assets/video-call-blueprint.jpeg",
     summary: "Big-screen home video calls became ordinary.",
     then: "The film showed people speaking face to face through large home screens.",
     now: "Zoom, FaceTime, Teams, WhatsApp video, smart TVs, tablets, and conference rooms made this normal.",
