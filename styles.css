@@ -616,8 +616,22 @@ a.story-card {
   font-weight: 800;
 }
 
+.story-footer span {
+  display: grid;
+  gap: 5px;
+}
+
+.story-footer small {
+  color: var(--amber);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .story-status {
   color: var(--green);
+  text-align: right;
 }
 
 .detail-page {

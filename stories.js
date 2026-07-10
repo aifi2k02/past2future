@@ -158,6 +158,54 @@ const stories = [
     then: "Characters appeared as glowing 3D messages and remote presences.",
     now: "AR, VR, volumetric displays, hologram-style concerts, and 3D telepresence are real in limited forms.",
     check: "We have impressive versions, but the simple everyday floating hologram call is not common yet."
+  },
+  {
+    slug: "tablet-computer",
+    title: "2001 Tablet Computer",
+    source: "2001: A Space Odyssey, 1968",
+    category: "Communication",
+    status: "Real Today",
+    score: "10/10",
+    image: "assets/tablet-computer-blueprint.jpeg",
+    detailEyebrow: "Flat-screen future",
+    detailTitle: "The space-age newspad became the tablet computer in everyday hands.",
+    detailIntro: "A slim personal screen felt futuristic in 1968: portable, flat, connected, and used for reading information on demand. Modern tablets made that vision normal through touchscreens, wireless networks, apps, video, news, work tools, and entertainment.",
+    summary: "Flat portable screens moved from space-age fiction to tablets and iPads.",
+    then: "The film imagined astronauts using thin personal screens to watch and read information while traveling through space.",
+    now: "Tablets, iPads, foldable screens, e-readers, and touchscreen devices made portable flat computing part of daily life.",
+    check: "This prediction landed almost perfectly, even if the real devices became more interactive and powerful than the fictional version."
+  },
+  {
+    slug: "fahrenheit-earbuds",
+    title: "Fahrenheit 451 Earbuds",
+    source: "Fahrenheit 451, 1953",
+    category: "Communication",
+    status: "Real Today",
+    score: "10/10",
+    image: "assets/wireless-earbuds-blueprint.jpeg",
+    detailEyebrow: "Tiny audio future",
+    detailTitle: "The tiny ear radio became wireless earbuds and always-on audio.",
+    detailIntro: "Ray Bradbury imagined small seashell-like radios worn in the ear long before wireless earbuds became normal. Today, compact ear devices deliver music, calls, voice assistants, noise cancellation, translation, and constant connection.",
+    summary: "Tiny in-ear radios became modern wireless earbuds.",
+    then: "The story described small ear devices that delivered constant audio directly to the listener.",
+    now: "Wireless earbuds, Bluetooth headsets, hearing-assist devices, voice assistants, and smart audio wearables are common worldwide.",
+    check: "The form factor and behavior are strikingly close, though real earbuds are two-way computers rather than simple radios."
+  },
+  {
+    slug: "her-ai-companion",
+    title: "Her AI Companion",
+    source: "Her, 2013",
+    category: "AI",
+    status: "Mostly Real",
+    score: "8/10",
+    image: "assets/ai-companion-blueprint.jpeg",
+    detailEyebrow: "Emotional interface",
+    detailTitle: "The conversational AI companion moved from intimate fiction into real chat and voice systems.",
+    detailIntro: "The film imagined an AI that could speak naturally, remember context, respond emotionally, and become part of a person's daily inner life. Modern AI companions and assistants now handle pieces of that vision, though trust, privacy, and emotional dependency remain serious questions.",
+    summary: "Conversational AI moved toward personal memory, voice, and emotional support.",
+    then: "A fictional operating system understood speech, personality, memory, emotion, and companionship.",
+    now: "Chat AI, voice assistants, AI companions, personalized agents, and memory-based tools can converse, help, summarize, plan, and adapt to users.",
+    check: "The conversational layer is mostly real, but genuinely reliable emotional intelligence and healthy boundaries are still developing."
   }
 ];
 

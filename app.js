@@ -31,8 +31,8 @@ function renderStories(filter = "all") {
         <h3>${story.title}</h3>
         <p>${story.summary}</p>
         <div class="story-footer">
-          <span>${story.source}</span>
-          <span class="story-status">${story.status}</span>
+          <span><small>Past signal</small>${story.source}</span>
+          <span class="story-status"><small>Reality today</small>${story.status}</span>
         </div>
       </div>
     `;

@@ -26,9 +26,9 @@ detailCheck.textContent = story.check;
 detailScoreValue.textContent = story.score.split("/")[0];
 
 detailMetaStrip.innerHTML = `
-  <div><span>Source</span><strong>${story.source}</strong></div>
+  <div><span>Past signal</span><strong>${story.source}</strong></div>
   <div><span>Category</span><strong>${story.category}</strong></div>
-  <div><span>Status</span><strong>${story.status}</strong></div>
+  <div><span>Reality today</span><strong>${story.status}</strong></div>
   <div><span>Close score</span><strong>${story.score}</strong></div>
 `;
 
@@ -51,8 +51,8 @@ window.PAST_TO_FUTURE_STORIES
         <h3>${item.title}</h3>
         <p>${item.summary}</p>
         <div class="story-footer">
-          <span>${item.source}</span>
-          <span class="story-status">${item.status}</span>
+          <span><small>Past signal</small>${item.source}</span>
+          <span class="story-status"><small>Reality today</small>${item.status}</span>
         </div>
       </div>
     `;
